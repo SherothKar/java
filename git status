@@ -1,0 +1,51 @@
+[1mdiff --git a/arithmetic.java b/arithmetic.java[m
+[1mindex babbb3f..38cbdbf 100644[m
+[1m--- a/arithmetic.java[m
+[1m+++ b/arithmetic.java[m
+[36m@@ -2,23 +2,27 @@[m [mimport java.io.*;[m
+ import java.Util.*;[m
+ public class arithmetic[m
+ {[m
+[31m-public static void main (string []args)[m
+[31m-{[m
+[31m-class Add{[m
+[31m-public void Add(int a,int b);[m
+[31m-{[m
+[31m-int z=a+b;[m
+[31m-System.out.println("your value",z);[m
+[31m-return;[m
+[31m-}[m
+[31m-Add obj1=new Add();[m
+[31m-Scanner in=new Scanner(System.in);[m
+[31m-System.out.println("enter 1 to add");[m
+[31m-int v=in.nextInt();[m
+[31m-If(v==1)[m
+[31m-{[m
+[31m-System.out.println("enter the two value");[m
+[31m-int a=in.nextint();[m
+[31m-int b=in.nextint();[m
+[31m-obj1.Add(int a,int b);[m
+[32m+[m	[32mpublic static void main (string []args)[m
+[32m+[m	[32m{[m
+[32m+[m		[32mclass Add{[m
+[32m+[m			[32mpublic void Add(int a,int b);[m
+[32m+[m			[32m{[m
+[32m+[m				[32mint z=a+b;[m
+[32m+[m				[32mSystem.out.println("your value",z);[m
+[32m+[m				[32mreturn;[m
+[32m+[m			[32m}[m
+[32m+[m			[32mAdd obj1=new Add();[m
+[32m+[m			[32mScanner in=new Scanner(System.in);[m
+[32m+[m			[32mSystem.out.println("enter 1 to add");[m
+[32m+[m			[32mint v=in.nextInt();[m
+[32m+[m			[32mIf(v==1)[m
+[32m+[m			[32m{[m
+[32m+[m				[32mSystem.out.println("enter the two value");[m
+[32m+[m				[32mint a=in.nextint();[m
+[32m+[m				[32mint b=in.nextint();[m
+[32m+[m				[32mobj1.Add(int a,int b);[m
+[32m+[m			[32m}[m
+[32m+[m		[32m}[m
+[32m+[m	[32m}[m
+ }[m
+[41m+[m
